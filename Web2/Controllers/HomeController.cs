@@ -18,7 +18,7 @@ namespace Web2.Controllers
                 LastAccessDate = DateTime.Now
             };
 
-            return View();
+            return View(myData);
         }
 
         public ActionResult About()
